@@ -1,0 +1,96 @@
+*{
+  box-sizing: border-box;
+  padding: 20px;
+}
+
+body{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 18px;
+  background-color: rgb(222, 215, 215);
+}
+
+header{
+  /* background-color: azure; */
+  background-color: aquamarine;
+  width: 100%;
+  height: 220px;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+nav{
+  /* position: relative; */
+  background-color: aquamarine;
+  height: 100px;
+  padding-top: 20px;
+}
+
+main{
+  background-color: antiquewhite;
+  font-size: 17px;
+}
+
+footer{
+  margin-top: 40px;
+  background-color: blanchedalmond;
+}
+
+ul{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 60px;
+}
+
+h1{
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: rebeccapurple;
+  line-height: -0.5;
+}
+
+
+li{
+  list-style: none;
+}
+
+.goMain{
+  color: red;
+  margin-bottom: 10px;
+}
+
+#main{
+  margin-top: 40px;
+  /* height: 200px; */
+}
+
+.grid-img{
+  display: grid;
+  grid-template-columns: 1fr 1fr;/* Ajusta tu-ancho-minimo 
+  gap: 10px; /* Espacio entre las imágenes (opcional) */
+  justify-items: center; /* Centra las imágenes horizontalmente dentro de su celda */
+  align-items: center;
+}
+
+.grid-img img {
+  width: 60%; 
+  height: 60%; /* Para mantener la proporción */
+  object-fit: cover; 
+}
+
+.grid{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  
+  gap: 30px;
+}
+
+.grid img {
+  width: 130px; 
+  height: 130px;
+  object-fit: cover; 
+}
+
